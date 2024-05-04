@@ -34,7 +34,7 @@ const View = ({ params }: { params: string }) => {
       <Navbar />
       {loading ? (
         <div className="my-10 grid place-items-center w-full">
-          "Loading ....."
+          Loading .....
         </div>
       ) : (
         <div>
